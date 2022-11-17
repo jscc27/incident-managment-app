@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const URI = "mongodb://localhost/incidents";
+const URI = "mongodb+srv://group:group3@cluster0.apzoh1j.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose
   .connect(URI, {
